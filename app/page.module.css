@@ -1,0 +1,160 @@
+
+
+
+#fatherTodo {
+  width: 100%;
+  min-height: 95vh;
+  background-color: #76c1f0;
+  color: #000;
+  display: flex;
+  justify-content: center;
+  margin-top: 1%;
+  border-radius: 10px;
+
+}
+
+#columnTask,
+#columnProgress,
+#columnConcluded,
+#columnBacklog,
+#columnReview {
+  margin: 10px 10px;
+  width: 300px;
+  height: min-content;
+  /* height: auto; */
+  background-color:rgb(255, 255, 255) ;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 10px;
+}
+
+
+.titleColumn {
+  color: #000;
+  text-align: center;
+  font-size: 1.5em;
+
+}
+
+
+.newTodo {
+  align-items: center;
+  justify-content: center;
+  width: 95%;
+  height: 60px;
+  margin: 5px auto;
+  background-color: #e9e7e7;
+  color: #000;
+  border-radius: 6px;
+  text-align: justify;
+  border: 0.5 solid #bbb;
+  
+}
+
+.newTodo h5, .newTodo p{
+  margin-left: 5px;
+  max-width: 80%;
+}
+
+.newTodo:hover{
+  background-color: #cfcfcf;
+  width: 93%;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+
+
+
+
+.btnDel{
+  width: 30px;
+  height: 100%;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin-left:85%;
+  background-color: none;
+}
+.btnDel button{
+  width: 90%;
+  height: 90%;
+  border: none;
+  background-color: transparent;
+}
+
+.btnDel button img{
+  opacity: 0;
+  margin-top: -150px;
+  z-index: 2;
+}
+
+.btnDel button img:hover{
+  opacity: 1;
+  margin-top: -150px;
+  z-index: 2;
+}
+
+
+
+/* classes de status */
+.sttBackLog {
+  width: 100px;
+  height: 2px;
+  border-radius: 4%;
+  margin-left: 5px;
+  background-color: grey;
+}
+
+.sttTask{
+  width: 100px;
+  height: 2px;
+  border-radius: 4%;
+  margin-left: 5px;
+  background-color: blue;
+}
+
+.sttProgress{
+  width: 100px;
+  height: 2px;
+  border-radius: 4%;
+  margin-left: 5px;
+  background-color: green;
+}
+
+.sttConcluded{
+  width: 100px;
+  height: 2px;
+  border-radius: 4%;
+  margin-left: 5px;
+  background-color: red;
+}
+
+.sttReview{
+  width: 100px;
+  height: 2px;
+  border-radius: 4%;
+  margin-left: 5px;
+  background-color: brown;
+}
+
+
+
+
+
+
+
+/* 
+@media (min-width: 576px) {  }
+
+
+@media (min-width: 768px) {  }
+
+
+@media (min-width: 992px) {  }
+
+
+@media (min-width: 1200px) {  }
+
+
+@media (min-width: 1400px) { } */
